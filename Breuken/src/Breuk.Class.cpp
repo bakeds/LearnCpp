@@ -53,7 +53,7 @@ Breuk Breuk::operator *(const Breuk b)
 
 void Breuk::Vereenvoudig()
 {
-	for(int i = this->Noemer;i>0;i++)
+	for(int i = this->Noemer;i>0;i--)
 	{
 		if(this->Teller%i==0 && this->Noemer%i==0)
 		{

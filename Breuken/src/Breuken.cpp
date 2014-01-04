@@ -16,7 +16,7 @@ int main() {
 	Breuk b1 = Breuk(1,2);
 	Breuk b2(1,2);
 
-	Breuk antwoord = b1*b2;
+	Breuk antwoord = b1+b2;
 
 	std::cout << antwoord.GetString();
 
